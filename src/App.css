@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* ~~~~~~~~~~~~~~~~~~~GENERAL~~~~~~~~~~~~~~~~~~~~~~~ */
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.centered_text {
+  text-align: center;
+}
+
+.dark_text {
+  color:black
+}
+
+.white_text {
+  color: white
+}
+
+h2 {
+  margin: 33px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.image_white_border {
+  /* max-width: 250px; */
+  border: 6px solid white;
+  object-fit: cover;
+  /* object-position: ; */
+}
+
+.rounded_corners {
+  border-radius: 16px;
+}
+
+.footer {
+  margin-top: auto;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~!~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~HERO~~~~~~~~~~~~~~~~~~~~~~~ */
+.hero_section {
+  background-image: url("./images/landing/Hero/books.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+#hero_main_text {
+  color: #500000;
+  -webkit-text-stroke: 1px white;
+}
+
+#hero_sub_text {
+  color: white;
+  -webkit-text-stroke: 1px #500000;
+  margin-bottom: 33px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~~~~~~~TRY_US~~~~~~~~~~~~~~~~~~~~~~~ */
+.try_us_section {
+  background-color: #500000;
+  color: white;
+  padding: 33px 21px;
+}
+
+#try_us_card {
+  height: 100%;
+  padding-top: 2.5rem;
+}
+
+.try_us_left {
+  padding-right: 3px;
+}
+
+.try_us_right {
+  padding-left: 3px;
+}
+
+.try_us_image {
+  height: 100%;
+  width: 100%;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~P_SUBJECTS~~~~~~~~~~~~~~~~~~~~~~~ */
+.p_subject_card {
+  /* width: 180px;
+  max-height: 180px; */
+  color: #500000;
+  -webkit-text-stroke: 1px white;
+  border: none
+  /* margin-bottom: 21px; */
+  /* display: flex; */
+}
+
+#p_subject_card_title {
+  /* border: 2px solid red; */
+  /* width: 100%; */
+  height: 100%;
+  display: flex;
+  /* margin: auto; */
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.p_subject_title {
+  padding-top: 33px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~TESTIMONIALS~~~~~~~~~~~~~~~~~~~~~~~ */
+.testimonials {
+  background-color: #500000;
   color: white;
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.App-link {
-  color: #61dafb;
+/* ~~~~~~~~~~~~~~~~~~~About Us~~~~~~~~~~~~~~~~~~~~~~~ */
+.mission_statement {
+  background-image: url("./images/about_us/not_lost.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #cccccc;
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.maroon_background {
+  background-color: #500000;
 }
+
+#about_caro {
+  height: 200px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~Request Help~~~~~~~~~~~~~~~~~~~~~~~ */
+.grey_background {
+  background-color: #cccccc;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
